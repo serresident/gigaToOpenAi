@@ -383,7 +383,9 @@ class ProxyManagerApp(QMainWindow):
             "GPT2GIGA_API_KEY": "sk-gigachat",
             "GPT2GIGA_GIGACHAT_API_MODE": "v2",
             "GPT2GIGA_PASS_MODEL": "False",
-            "GPT2GIGA_DISABLE_REASONING": "True"
+            "GPT2GIGA_DISABLE_REASONING": "True",
+            "GPT2GIGA_MODEL_MAX_CONNECTIONS_DEFAULT": "1",
+            "GPT2GIGA_MODEL_MAX_CONNECTIONS_ACQUIRE_TIMEOUT": "60.0"
         }
         
         for k, v in defaults.items():
