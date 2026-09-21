@@ -535,6 +535,7 @@ class ProxyManagerApp(QMainWindow):
             "apiBase": "http://localhost:8090/v2",
             "apiKey": "sk-gigachat",
             "roles": ["chat", "edit", "apply"],
+            "useLegacyCompletionsEndpoint": False,
             "defaultCompletionOptions": {
                 "contextLength": 32768,
                 "maxTokens": 8192
