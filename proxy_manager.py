@@ -375,6 +375,10 @@ class ProxyManagerApp(QMainWindow):
             
         defaults = {
             "GIGACHAT_SCOPE": "GIGACHAT_API_PERS",
+            "GIGACHAT_VERIFY_SSL_CERTS": "False",
+            "GIGACHAT_MAX_RETRIES": "5",
+            "GIGACHAT_RETRY_BACKOFF_FACTOR": "1.0",
+            "GIGACHAT_TIMEOUT": "60.0",
             "GPT2GIGA_ENABLE_API_KEY_AUTH": "True",
             "GPT2GIGA_API_KEY": "sk-gigachat",
             "GPT2GIGA_GIGACHAT_API_MODE": "v2",
